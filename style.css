@@ -1,0 +1,45 @@
+body{
+  margin:0;
+  padding:0;
+  border:0;
+}
+.above-fold{
+  height:100vh;
+  width:100vw;
+  padding-top:90px;
+  background-image: url('pattern.svg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.email{
+  width:500px;
+  margin:2em auto;
+  text-align: center;
+}
+
+.email input{
+  width: 350px;
+  height: 3em;
+  border-radius: 2em;
+  border-style: solid;
+  border-color: white;
+  padding-left: 2em;
+  font-size: 1em;
+}
+.email button{
+  height: 3em;
+padding: 1em 1em 2.2em 1em;
+font-size: 1em;
+border-radius: 2em;
+color: #484848;
+background-color: #eee;
+border: solid #eee;
+}
+.email button:hover{
+  color: #eee;
+  background-color: #666;
+  border-color: #666;
+}
