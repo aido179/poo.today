@@ -1,12 +1,14 @@
 body{
+  background-color: #dedede;
   margin:0;
   padding:0;
   border:0;
+  font-family: 'Lato', sans-serif;
 }
 .above-fold{
   height:100vh;
   width:100vw;
-  padding-top:90px;
+  padding-top:40px;
   background-image: url('pattern.svg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,9 +16,19 @@ body{
   background-size: cover;
 }
 
+.headline{
+  margin:0 auto;
+  text-align: center;
+}
+.headline h1{
+  font-size:2em;
+  color:#fff;
+  text-transform:uppercase;
+}
+
 .email{
   width:500px;
-  margin:2em auto;
+  margin:1em auto;
   text-align: center;
 }
 
@@ -42,4 +54,15 @@ border: solid #eee;
   color: #eee;
   background-color: #666;
   border-color: #666;
+}
+.email p{
+  color: #fff;
+font-size: 0.8em;
+text-align: left;
+padding-left: 1em;
+}
+.email .emoji{
+  height: 20px;
+margin-bottom: -3px;
+margin-right: 2px;
 }
