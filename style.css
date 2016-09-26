@@ -32,7 +32,7 @@ body{
   text-align: center;
 }
 
-.email input{
+.email .email-input{
   width: 350px;
   height: 3em;
   border-radius: 2em;
@@ -41,7 +41,7 @@ body{
   padding-left: 2em;
   font-size: 1em;
 }
-.email button{
+.email .email-button{
   height: 3em;
 padding: 1em 1em 2.2em 1em;
 font-size: 1em;
